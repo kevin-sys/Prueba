@@ -1,10 +1,10 @@
 export class Usuario{
-    id:number;
+    id:String;
     nombres:String;
     apellido:String;
     cedula:String;
     correo:String;
     telefono:String;
-    fecharegistro:Date;
+   
 
 }

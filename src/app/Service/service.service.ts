@@ -8,7 +8,7 @@ import{Usuario}from'../Modelo/Usuario';
 export class ServiceService {
 
   constructor(private http:HttpClient) { }
-  Url='http://localhost:8080/Trabajo/usuarios';
+  Url='http://localhost:8080/usuarios';
   getUsuarios(){
     return this.http.get<Usuario[]>(this.Url);
   }
